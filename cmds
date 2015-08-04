@@ -1,0 +1,14 @@
+# git clean -dxf
+
+# autoconf ( edit configure.scan to configure.ac, see: configure.ac.example )
+
+
+
+
+# ./autogen.sh && ./configure && make
+# (or)
+# aclocal && automake --force --add-missing && autoreconf && ./configure && make
+
+
+
+# ps: autogen.sh is from http://buildconf.brlcad.org
