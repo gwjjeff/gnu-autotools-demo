@@ -12,3 +12,9 @@
 
 
 # ps: autogen.sh is from http://buildconf.brlcad.org
+
+
+### arm crom-compile
+
+# PATH=/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin:$PATH CC=arm-linux-gnueabihf-gcc CXX=arm-linux-gnueabihf-g++ LD=arm-linux-gnueabihf-ld RAINLIB=arm-linux-gnueabihf-rainlib AR=arm-linux-gnueabihf-ar ./configure --host=arm
+# PATH=/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.04-20130415_linux/bin:$PATH CC=arm-linux-gnueabihf-gcc CXX=arm-linux-gnueabihf-g++ LD=arm-linux-gnueabihf-ld RAINLIB=arm-linux-gnueabihf-rainlib AR=arm-linux-gnueabihf-ar make
